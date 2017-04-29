@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TheTokyo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_listTwo">Food</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_listThree">Shopping</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_listOne">Sight</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_listFour">Hotel</string>
+</resources>
