@@ -34,27 +34,27 @@ public class spotListFragment extends Fragment {
         // I use icon as placeholder instead of real image
         // 〒100-8111
         Spots.add(new contents("东京铁塔",
-                "4 Chome-2-8 Shibakoen, Minato, Tokyo", R.mipmap.ic_launcher));
+                "4 Chome-2-8 Shibakoen, Minato, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("浅草寺",
-                "2 Chome-3-1 Asakusa, Taito, Tokyo", R.mipmap.ic_launcher));
+                "2 Chome-3-1 Asakusa, Taito, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("筑地市场",
-                "5 Chome-2-1 Tsukiji, Chuo, Tokyo", R.mipmap.ic_launcher));
+                "5 Chome-2-1 Tsukiji, Chuo, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("东京国立博物馆",
-                "13-9 Uenokoen, Taito, Tokyo", R.mipmap.ic_launcher));
+                "13-9 Uenokoen, Taito, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("歌舞伎町",
-                "1-1, Shinjuku, Tokyo", R.mipmap.ic_launcher));
+                "1-1, Shinjuku, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("江户城",
-                "1−1, Chiyoda, Tokyo", R.mipmap.ic_launcher));
+                "1−1, Chiyoda, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("皇居",
-                "1-1, Chiyoda, Tokyo", R.mipmap.ic_launcher));
+                "1-1, Chiyoda, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("新宿御苑",
-                "11 Naitomachi, Shinjuku, Tokyo", R.mipmap.ic_launcher));
+                "11 Naitomachi, Shinjuku, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("明治神宫",
-                "1-1 Yoyogikamizonocho, Shibuya, Tokyo", R.mipmap.ic_launcher));
+                "1-1 Yoyogikamizonocho, Shibuya, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("国立科学博物馆",
-                "7-20 Uenokoen, Taito, Tokyo", R.mipmap.ic_launcher));
+                "7-20 Uenokoen, Taito, Tokyo", R.drawable.ic_launcher_round));
         Spots.add(new contents("国立新美术馆",
-                "7 Chome-22-2 Roppongi, Minato, Toky", R.mipmap.ic_launcher));
+                "7 Chome-22-2 Roppongi, Minato, Toky", R.drawable.ic_launcher_round));
 
         /**
          * Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -83,8 +83,6 @@ public class spotListFragment extends Fragment {
          * 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
          */
         listView.setAdapter(itemsAdapter);
-
-
 
         return rootView;
     }

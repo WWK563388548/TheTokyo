@@ -32,27 +32,27 @@ public class restaurantListFragment extends Fragment {
 
 
         Spots.add(new contents("鮨 さいとう",
-                "東京都 港区 六本木 1-4-5 アークヒルズサウスタワー 1Ｆ", R.mipmap.ic_launcher));
+                "東京都 港区 六本木 1-4-5 アークヒルズサウスタワー 1Ｆ", R.drawable.ic_launcher_round));
         Spots.add(new contents("松川",
-                "東京都 港区 赤坂 1-11-6 赤坂テラスハウス １階", R.mipmap.ic_launcher));
+                "東京都 港区 赤坂 1-11-6 赤坂テラスハウス １階", R.drawable.ic_launcher_round));
         Spots.add(new contents("カンテサンス",
-                "東京都 品川区 北品川 6-7-29 ガーデンシティ品川 御殿山 1F", R.mipmap.ic_launcher));
+                "東京都 品川区 北品川 6-7-29 ガーデンシティ品川 御殿山 1F", R.drawable.ic_launcher_round));
         Spots.add(new contents("すぎた",
-                "東京都 中央区 日本橋蛎殻町 1-33-6 ビューハイツ日本橋 B1F", R.mipmap.ic_launcher));
+                "東京都 中央区 日本橋蛎殻町 1-33-6 ビューハイツ日本橋 B1F", R.drawable.ic_launcher_round));
         Spots.add(new contents("しのはら",
-                "東京都 中央区 銀座 2-8-17 ハビウル銀座2 B1", R.mipmap.ic_launcher));
+                "東京都 中央区 銀座 2-8-17 ハビウル銀座2 B1", R.drawable.ic_launcher_round));
         Spots.add(new contents("と村",
-                "東京都 港区 虎ノ門 1-11-14 第二ジェスペールビル　１Ｆ", R.mipmap.ic_launcher));
+                "東京都 港区 虎ノ門 1-11-14 第二ジェスペールビル　１Ｆ", R.drawable.ic_launcher_round));
         Spots.add(new contents("かぶと",
-                "東京都 豊島区 池袋 2-53-2 池袋ESビル 1F", R.mipmap.ic_launcher));
+                "東京都 豊島区 池袋 2-53-2 池袋ESビル 1F", R.drawable.ic_launcher_round));
         Spots.add(new contents("SATOブリアン にごう",
-                "東京都 杉並区 阿佐ヶ谷南2-17-2", R.mipmap.ic_launcher));
+                "東京都 杉並区 阿佐ヶ谷南2-17-2", R.drawable.ic_launcher_round));
         Spots.add(new contents("味満ん",
-                "東京都 港区 六本木 3-8-8 ＷＯＯビル　１Ｆ", R.mipmap.ic_launcher));
+                "東京都 港区 六本木 3-8-8 ＷＯＯビル　１Ｆ", R.drawable.ic_launcher_round));
         Spots.add(new contents("鳥しき",
-                "東京都 品川区 上大崎 2-14-12", R.mipmap.ic_launcher));
+                "東京都 品川区 上大崎 2-14-12", R.drawable.ic_launcher_round));
         Spots.add(new contents("炭焼 金竜山",
-                "東京都 港区 白金 3-14-1 第１マンション　１Ｆ", R.mipmap.ic_launcher));
+                "東京都 港区 白金 3-14-1 第１マンション　１Ｆ", R.drawable.ic_launcher_round));
 
         /**
          * Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

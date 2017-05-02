@@ -31,18 +31,20 @@ public class hotelListFragment extends Fragment {
         // add words about contents (an array)
         final ArrayList<contents> Spots = new ArrayList<contents>();
 
-
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
-        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.mipmap.ic_launcher));
+        // I don't know how to put these strings to strings.xml
+        // I have tried to use R.string.position_name_hotel1 but there are lots of mistakes
+        // about contents() in contents cannot be applied
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
+        Spots.add(new contents("Hotel Ryumeikan Tokyo", "1 Chome-3-22 Yaesu, Chuo, Tokyo", R.drawable.ic_launcher_round));
 
         /**
          * Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

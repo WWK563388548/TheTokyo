@@ -4,15 +4,31 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <!-- Category name for Food [CHAR LIMIT=20] -->
     <string name="category_listTwo">Food</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <!-- Category name for Shopping [CHAR LIMIT=20] -->
     <string name="category_listThree">Shopping</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <!-- Category name for Sight [CHAR LIMIT=20] -->
     <string name="category_listOne">Sight</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <!-- Category name for Hotel [CHAR LIMIT=20] -->
     <string name="category_listFour">Hotel</string>
+
+    <!-- Name and address of hotel -->
+    <string name="position_name_hotel1">Hotel Ryumeikan Tokyo</string>
+    <string name="position_address_hotel1">1 Chome-3-22 Yaesu, Chuo, Tokyo</string>
+
+    <!-- Name and address of restaurant -->
+    <string name="position_name_restaurant1">Hotel Ryumeikan Tokyo</string>
+    <string name="position_address_restaurant1">1 Chome-3-22 Yaesu, Chuo, Tokyo</string>
+
+    <!-- Name and address of shopping -->
+    <string name="position_name_shopping1">Hotel Ryumeikan Tokyo</string>
+    <string name="position_address_shopping1">1 Chome-3-22 Yaesu, Chuo, Tokyo</string>
+
+    <!-- Name and address of restaurant -->
+    <string name="position_name_spot1">Hotel Ryumeikan Tokyo</string>
+    <string name="position_address_spot1">1 Chome-3-22 Yaesu, Chuo, Tokyo</string>
 </resources>

@@ -4,15 +4,18 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the list_item -->
+    <color name="background_color_list_item">#FFF7DA</color>
+
+    <!-- Background color for the spot category -->
     <color name="category_spot">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the restaurant category -->
     <color name="category_restaurant">#379237</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the park category -->
     <color name="category_park">#8800A0</color>
 
-    <!-- Background color for the phrases category -->
+    <!-- Background color for the hotel category -->
     <color name="category_hotel">#16AFCA</color>
 </resources>
