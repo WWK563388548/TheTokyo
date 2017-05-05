@@ -29,17 +29,18 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      *
      */
 
+    // Try to optimize Fragment for better extensibility and maintain
+
+    private Fragment[] pages = new Fragment[] {
+            new SpotListFragment(),
+            new RestaurantListFragment(),
+            new HotelListFragment(),
+            new ShoppingListFragment()
+    };
+
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new SpotListFragment();
-        } else if (position == 1) {
-            return new RestaurantListFragment();
-        } else if (position == 2){
-            return new HotelListFragment();
-        } else {
-            return new ShoppingListFragment();
-        }
+        return pages[position];
     }
 
     /**
@@ -48,19 +49,18 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return pages.length;
     }
+
+    private CharSequence[] titles = new CharSequence[] {
+            mContext.getString(R.string.category_listOne),
+            mContext.getString(R.string.category_listTwo),
+            mContext.getString(R.string.category_listFour),
+            mContext.getString(R.string.category_listThree)
+    };
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_listOne);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_listTwo);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_listFour);
-        } else {
-            return mContext.getString(R.string.category_listThree);
-        }
+       return titles[position];
     }
 }
