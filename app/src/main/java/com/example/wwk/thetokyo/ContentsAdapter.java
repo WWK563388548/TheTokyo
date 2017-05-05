@@ -17,11 +17,11 @@ import java.util.ArrayList;
  * Created by wwk on 17/4/17.
  */
 
-public class contentsAdapter extends ArrayAdapter<contents> {
+public class ContentsAdapter extends ArrayAdapter<Contents> {
 
     private int mColorResourceId;
 
-    public contentsAdapter(Activity context, ArrayList<contents> Spots, int colorResourceId) {
+    public ContentsAdapter(Activity context, ArrayList<Contents> Spots, int colorResourceId) {
         super(context, 0 ,Spots);
         mColorResourceId = colorResourceId;
     }
@@ -36,7 +36,7 @@ public class contentsAdapter extends ArrayAdapter<contents> {
         }
 
         // Get the {@link contents} object located this position in the list
-        contents currentCotents = getItem(position);
+        Contents currentCotents = getItem(position);
 
         ImageView displayImage = (ImageView) listItemView.findViewById(R.id.image_view);
         // Check if an image is provided for this word or not

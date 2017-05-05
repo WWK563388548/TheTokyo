@@ -4,7 +4,7 @@ package com.example.wwk.thetokyo;
  * Created by wwk on 17/4/17.
  */
 
-public class contents {
+public class Contents {
 
     private String mSpotsName;
 
@@ -14,7 +14,7 @@ public class contents {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public contents (String spotsName, String spotsAddress, int imageResourceId) {
+    public Contents (String spotsName, String spotsAddress, int imageResourceId) {
         mSpotsName = spotsName;
         mSpotsAddress = spotsAddress;
         mImageResourceId = imageResourceId;

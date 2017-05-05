@@ -9,16 +9,16 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Created by wwk on 17/4/17.
  */
 
-public class categoryAdapter extends FragmentPagerAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mContext;
 
     /**
-     * Create a new {@link categoryAdapter} object.
+     * Create a new {@link CategoryAdapter} object.
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      * across swipes.
      */
 
-    public categoryAdapter(Context context, FragmentManager fm) {
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -32,13 +32,13 @@ public class categoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new spotListFragment();
+            return new SpotListFragment();
         } else if (position == 1) {
-            return new restaurantListFragment();
+            return new RestaurantListFragment();
         } else if (position == 2){
-            return new hotelListFragment();
+            return new HotelListFragment();
         } else {
-            return new shoppingListFragment();
+            return new ShoppingListFragment();
         }
     }
 
