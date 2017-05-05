@@ -14,10 +14,10 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class restaurantListFragment extends Fragment {
+public class RestaurantListFragment extends Fragment {
 
 
-    public restaurantListFragment() {
+    public RestaurantListFragment() {
         // Required empty public constructor
     }
 
@@ -31,33 +31,33 @@ public class restaurantListFragment extends Fragment {
         final ArrayList<contents> Spots = new ArrayList<contents>();
 
 
-        Spots.add(new contents("鮨 さいとう",
-                "東京都 港区 六本木 1-4-5 アークヒルズサウスタワー 1Ｆ", R.drawable.ic_launcher_round));
-        Spots.add(new contents("松川",
-                "東京都 港区 赤坂 1-11-6 赤坂テラスハウス １階", R.drawable.ic_launcher_round));
-        Spots.add(new contents("カンテサンス",
-                "東京都 品川区 北品川 6-7-29 ガーデンシティ品川 御殿山 1F", R.drawable.ic_launcher_round));
-        Spots.add(new contents("すぎた",
-                "東京都 中央区 日本橋蛎殻町 1-33-6 ビューハイツ日本橋 B1F", R.drawable.ic_launcher_round));
-        Spots.add(new contents("しのはら",
-                "東京都 中央区 銀座 2-8-17 ハビウル銀座2 B1", R.drawable.ic_launcher_round));
-        Spots.add(new contents("と村",
-                "東京都 港区 虎ノ門 1-11-14 第二ジェスペールビル　１Ｆ", R.drawable.ic_launcher_round));
-        Spots.add(new contents("かぶと",
-                "東京都 豊島区 池袋 2-53-2 池袋ESビル 1F", R.drawable.ic_launcher_round));
-        Spots.add(new contents("SATOブリアン にごう",
-                "東京都 杉並区 阿佐ヶ谷南2-17-2", R.drawable.ic_launcher_round));
-        Spots.add(new contents("味満ん",
-                "東京都 港区 六本木 3-8-8 ＷＯＯビル　１Ｆ", R.drawable.ic_launcher_round));
-        Spots.add(new contents("鳥しき",
-                "東京都 品川区 上大崎 2-14-12", R.drawable.ic_launcher_round));
-        Spots.add(new contents("炭焼 金竜山",
-                "東京都 港区 白金 3-14-1 第１マンション　１Ｆ", R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant1_name),
+                getString(R.string.restaurant1_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant2_name),
+                getString(R.string.restaurant2_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant3_name),
+                getString(R.string.restaurant3_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant4_name),
+                getString(R.string.restaurant4_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant5_name),
+                getString(R.string.restaurant5_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant6_name),
+                getString(R.string.restaurant6_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant7_name),
+                getString(R.string.restaurant7_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant8_name),
+                getString(R.string.restaurant8_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant9_name),
+                getString(R.string.restaurant9_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant10_name),
+                getString(R.string.restaurant10_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.restaurant11_name),
+                getString(R.string.restaurant11_address), R.drawable.ic_launcher_round));
 
         /**
          * Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
          * adapter knows how to create layouts for each item in the list, using the
-         * simple_list_item_1.xml layout resource defined in the Android framework.
+         * layout resource defined in the Android framework.
          * This list item layout contains a single {@link TextView}, which the adapter will set to
          * display a single word.
          */

@@ -33,33 +33,33 @@ public class spotListFragment extends Fragment {
 
         // I use icon as placeholder instead of real image
         // 〒100-8111
-        Spots.add(new contents("东京铁塔",
-                "4 Chome-2-8 Shibakoen, Minato, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("浅草寺",
-                "2 Chome-3-1 Asakusa, Taito, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("筑地市场",
-                "5 Chome-2-1 Tsukiji, Chuo, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("东京国立博物馆",
-                "13-9 Uenokoen, Taito, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("歌舞伎町",
-                "1-1, Shinjuku, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("江户城",
-                "1−1, Chiyoda, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("皇居",
-                "1-1, Chiyoda, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("新宿御苑",
-                "11 Naitomachi, Shinjuku, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("明治神宫",
-                "1-1 Yoyogikamizonocho, Shibuya, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("国立科学博物馆",
-                "7-20 Uenokoen, Taito, Tokyo", R.drawable.ic_launcher_round));
-        Spots.add(new contents("国立新美术馆",
-                "7 Chome-22-2 Roppongi, Minato, Toky", R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot1_name),
+                getString(R.string.spot1_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot2_name),
+                getString(R.string.spot2_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot3_name),
+                getString(R.string.spot3_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot4_name),
+                getString(R.string.spot4_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot5_name),
+                getString(R.string.spot5_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot6_name),
+                getString(R.string.spot6_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot7_name),
+                getString(R.string.spot7_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot8_name),
+                getString(R.string.spot8_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot9_name),
+                getString(R.string.spot9_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot10_name),
+                getString(R.string.spot10_address), R.drawable.ic_launcher_round));
+        Spots.add(new contents(getString(R.string.spot11_name),
+                getString(R.string.spot11_address), R.drawable.ic_launcher_round));
 
         /**
          * Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
          * adapter knows how to create layouts for each item in the list, using the
-         * simple_list_item_1.xml layout resource defined in the Android framework.
+         * layout resource defined in the Android framework.
          * This list item layout contains a single {@link TextView}, which the adapter will set to
          * display a single word.
          */
