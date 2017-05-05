@@ -52,15 +52,21 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         return pages.length;
     }
 
-    private CharSequence[] titles = new CharSequence[] {
-            mContext.getString(R.string.category_listOne),
-            mContext.getString(R.string.category_listTwo),
-            mContext.getString(R.string.category_listFour),
-            mContext.getString(R.string.category_listThree)
-    };
-
     @Override
     public CharSequence getPageTitle(int position) {
-       return titles[position];
+        switch(position) {
+            // started from 0
+            case 0:
+                return mContext.getString(R.string.category_listOne);
+            case 1:
+                return mContext.getString(R.string.category_listTwo);
+            case 2:
+                return mContext.getString(R.string.category_listThree);
+            default:
+                return mContext.getString(R.string.category_listFour);
+        }
     }
+
+
+
 }

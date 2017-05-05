@@ -29,6 +29,7 @@ public class ContentsAdapter extends ArrayAdapter<Contents> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
         // Check if an existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
         if (listItemView == null) {
@@ -79,4 +80,12 @@ public class ContentsAdapter extends ArrayAdapter<Contents> {
         return listItemView;
 
     }
+
+    //class ViewHolder {
+
+    //  ImageView spotImage;
+
+    //TextView spotName;
+    //    TextView spotAddress;
+    //}
 }
