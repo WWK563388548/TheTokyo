@@ -1,5 +1,5 @@
 # TheTokyo
-A demo of travel application
+A demo of layout of travel application
 
 It's also an example about TabLayout, ViewPager, Fragment and FragmentPagerAdapter to implements sliding tabs effect.
 
